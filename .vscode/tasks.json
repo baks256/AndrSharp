@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Проверить текущий урок",
+      "type": "shell",
+      "command": "dotnet",
+      "args": ["run", "--project", "CourseRunner", "--", "${fileDirname}"],
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": []
+    }
+  ]
+}
