@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="00-setup/00-setup.csproj" />
+  <Project Path="CourseRunner/CourseRunner.csproj" />
+</Solution>
